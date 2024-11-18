@@ -8,4 +8,4 @@ jobs:
     uses: HexaWorkflowTemplates/CalledWorkflows/.github/workflows/mavenbuild.yml@main
     # Passing 'java-version' as an input parameter to the reusable workflow
     with:
-      java-version: '17'
+      java-version: '8'
