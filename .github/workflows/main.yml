@@ -6,6 +6,6 @@ jobs:
   NodeBuildAndTest:
     # Importing a reusable workflow from another repository and branch
     uses: HexaWorkflowTemplates/CalledWorkflows/.github/workflows/mavenbuild.yml@main
-    # Passing 'node-version' as an input parameter to the reusable workflow
+    # Passing 'java-version' as an input parameter to the reusable workflow
     with:
       java-version: '17'
