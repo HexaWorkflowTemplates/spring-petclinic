@@ -1,0 +1,11 @@
+name: Manually Triggered NPM Workflow
+on:
+  workflow_dispatch:
+  
+jobs:
+  NodeBuildAndTest:
+    # Importing a reusable workflow from another repository and branch
+    uses: HexaWorkflowTemplates/CalledWorkflows/.github/workflows/mavenbuild.yml@main
+    # Passing 'node-version' as an input parameter to the reusable workflow
+    with:
+      java-version: '17'
