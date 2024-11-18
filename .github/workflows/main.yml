@@ -1,4 +1,4 @@
-name: Manually Triggered NPM Workflow
+name: Manually Triggered Java Maven Workflow
 on:
   workflow_dispatch:
   
